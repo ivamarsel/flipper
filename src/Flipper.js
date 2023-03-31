@@ -58,7 +58,7 @@ class Flipper extends Component {
                 <h2>Let's flip a coin!</h2>
                 <button onClick={this.handleClick} >FLIP MEEE!</button>
                 {this.state.currCoin && <Coin info={this.state.currCoin} />}
-                // if currCoin is null(null is a falsy value) it wont show Coin in the beginning. if not it will show it.
+                {/* // if currCoin is null/null is a falsy value/it wont show Coin in the beginning. if not it will show it. */}
                 <p> Out of {this.state.flips} flips, there have been {this.state.heads} heads and {this.state.tails} tails.</p>
 
             </div>
